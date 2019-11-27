@@ -36,7 +36,7 @@ $$
 
 ##  更新
 
-状态跟新方程为：
+状态更新方程为：
 $$
 \begin{aligned}
 p(X_k\mid Z_k)&=\frac{P(Z_k\mid x_k)p(X_k)}{p(Z_k)}     \\
