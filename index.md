@@ -25,17 +25,26 @@ Temporary none。
 
 ## Skill
 
-- **C/C++**, Learning
-  - **OpenMP**,Learning
-  - **MPI**, Learning
-  - **CUDA**, Learning
+- **Matlab**,Familiar
+  
+- **Pr**,Familiar
+  
 - **Python**, Familiar
+
 - **Markdown**, Familiar
+
 - **LaTex**, Familiar
+
 - **Linux**, Familiar&Learning
+
 - **Git**, Familiar
+
 - **VSCode**, Learining
+
 - **Java**     ，Learning
+
 - **JavaScript**，Learning
+
+- **Verilog**,Familiar
 
   
