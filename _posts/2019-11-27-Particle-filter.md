@@ -46,7 +46,7 @@ p(X_k\mid Z_k)&=\frac{P(Z_k\mid x_k)p(X_k)}{p(Z_k)}     \\
 \end{aligned}
 $$
 
-其中$p(Z_k\mid X_k)$ you系统模型、观测模型和观测噪声分布确定。
+其中$p(Z_k\mid X_k)$ 由系统模型、观测模型和观测噪声分布确定。
 $$
 p(Z_k\mid Z_{k-1})=\int_{R^{n_x}}p(Z_k\mid X_k)p(X_k\mid Z_{k-1})dx_k
 $$
