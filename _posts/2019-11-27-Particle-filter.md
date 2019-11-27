@@ -36,12 +36,12 @@ $$
 ##  更新
 
 $$
-\begin{align*}
-p(X_k\mid Z_k)=\frac{P(Z_k\mid x_k)p(X_k)}{p(Z_k)}     \\
-=\frac{p(z_k,Z_{k-1}\mid X_k)p(X_k)}{p(z_k,Z_{k-1})}    \\
-=\frac{p(Z_k\mid X_k,Z_{k-1})p(Z_{k-1}\mid X_k)p(X_k)}{p(Z_k\mid Z_{k-1}p(Z_{k-1}))}\\
-=
-\end{align*}
+\begin{aligned}
+p(X_k\mid Z_k)&=\frac{P(Z_k\mid x_k)p(X_k)}{p(Z_k)}     \\
+&=\frac{p(z_k,Z_{k-1}\mid X_k)p(X_k)}{p(z_k,Z_{k-1})}    \\
+&=\frac{p(Z_k\mid X_k,Z_{k-1})p(Z_{k-1}\mid X_k)p(X_k)}{p(Z_k\mid Z_{k-1}p(Z_{k-1}))}\\
+&=
+\end{aligned}
 $$
 
 
