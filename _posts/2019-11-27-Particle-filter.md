@@ -36,16 +36,21 @@ $$
 
 ##  更新
 
+状态跟新方程为：
 $$
 \begin{aligned}
 p(X_k\mid Z_k)&=\frac{P(Z_k\mid x_k)p(X_k)}{p(Z_k)}     \\
 &=\frac{p(z_k,Z_{k-1}\mid X_k)p(X_k)}{p(z_k,Z_{k-1})}    \\
 &=\frac{p(Z_k\mid X_k,Z_{k-1})p(Z_{k-1}\mid X_k)p(X_k)}{p(Z_k\mid Z_{k-1}p(Z_{k-1}))}\\
-&=
+&=\frac{p(Z_k\mid X_k)p(Z_{k-1}\mid X_k)p(X_k)}{p(Z_k\mid Z_{k-1})p(Z_{k-1})}
 \end{aligned}
 $$
 
-
+其中$p(Z_k\mid X_k)$ you系统模型、观测模型和观测噪声分布确定。
+$$
+p(Z_k\mid Z_{k-1})=\int_{R^{n_x}}p(Z_k\mid X_k)p(X_k\mid Z_{k-1})dx_k
+$$
+这就构成了最优递推贝叶斯估计，在得到了后验概率$p(X_k\mid Z_k)$ 的条件后，根据极大似然、最小均方差、最大后验等估计准则就可以计算出目标的状态。
 
 
 
