@@ -39,8 +39,6 @@ Temporary none。
 
 - **Git**, Familiar
 
-- **VSCode**, Learining
-
 - **Java**     ，Learning
 
 - **JavaScript**，Learning
@@ -52,6 +50,7 @@ Temporary none。
 ## Essay
 
   - 生活
-  - [无线传感器下的目标定位与跟踪](posts/Particle-filter)
+  - [贝叶斯滤波](posts/Particle-filter)
+  - [高斯混合](posts/Gaussian-Mixture)
   - Java（暂时没学呢TnT）
 
