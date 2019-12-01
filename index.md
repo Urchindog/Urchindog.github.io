@@ -43,7 +43,11 @@ Temporary none。
 
 - **JavaScript**，Learning
 
-- **Verilog**,Familiar
+- **Verilog**,Familiar 
+
+- **English**,Familiar
+
+- **Japanese**,Familiar&Learning(preparing for N2)
 
   
 
