@@ -56,5 +56,6 @@ Temporary none。
   - 生活
   - [贝叶斯滤波](posts/Bayes-filter)
   - [高斯混合](posts/Gaussian-Mixture)
+  - [粒子滤波](posts/Particle-filter)
   - Java（暂时没学呢TnT）
 
