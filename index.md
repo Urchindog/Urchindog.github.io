@@ -57,5 +57,6 @@ Temporary none。
   - [贝叶斯滤波](posts/Bayes-filter)
   - [高斯混合](posts/Gaussian-Mixture)
   - [粒子滤波](posts/Particle-Filter)
+  - [多目标贝叶斯滤波](posts/Multi-Bayes-Filter)
   - Java（暂时没学呢TnT）
 
