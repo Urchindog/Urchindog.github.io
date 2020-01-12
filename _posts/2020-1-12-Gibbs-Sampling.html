@@ -63,7 +63,7 @@ $$</div>
 <p>所以得到p(x1,y1).p(y2|x1)=p(x1,y2).p(y1|x1),</p>
 <p>即p(A)p(y2|x1)=p(B)p(y1|x1).</p>
 <p>因此我们发现平行的两点之间的转移满足细致平稳条件。所以我们知道了，在沿着坐标轴方向的转移都是满足细致平稳条件的，这个时候的接受率为1，这样我们就不需要像Metropolis-Hastings一样将不等式变成等式了。这个等式可以理解为两边都乘以了接受率1，等式成立。</p>
-<p><img src="/public/image/zhoubiaozhou.jpg" referrerpolicy="no-referrer" alt="zuobiaozhou"></p>
+<p><img src="/public/image/zuobiaozhou.jpg" referrerpolicy="no-referrer" alt="zuobiaozhou"></p>
 <p>于是我们可以构造平面上任意两点之间的<strong>*转移概率矩阵Q:*</strong></p>
 <p>   Q(A-&gt;B)=p(y2|x1)   如果xA=xB=x1</p>
 <p>   Q(A-&gt;C)=p(x2|y1)   如果yA=yC=y1</p>
