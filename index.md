@@ -58,6 +58,6 @@ Temporary none。
   - [高斯混合](posts/Gaussian-Mixture)
   - [粒子滤波](posts/Particle-Filter)
   - [多目标贝叶斯滤波](posts/Multi-Bayes-Filter)
-  - [吉布斯采样](posts/2020-1-12-Gibbs-Sampling)
+  - [吉布斯采样](posts/Gibbs-Sampling)
   - Java（暂时没学呢TnT）
 
