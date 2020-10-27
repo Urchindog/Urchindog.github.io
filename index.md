@@ -64,5 +64,5 @@ Temporary none。
   - [多目标贝叶斯滤波](posts/Multi-Bayes-Filter)
   - [吉布斯采样](posts/Gibbs-Sampling)
   - Java
-  - [Go语言](/go)
+  - [Go语言](posts/go)
 
