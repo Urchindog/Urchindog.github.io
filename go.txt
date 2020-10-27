@@ -1,4 +1,11 @@
+---
+layout: index
+title: 今日は、お元気ですね。
+---
+
 - [Go语言中OOP思想](posts/Go-OOP)
 - [Go语言中的=和：=的区别](posts/Equal)
 - [Go语言中的指针类型](posts/Point)
+
+
 
