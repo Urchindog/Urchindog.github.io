@@ -1,0 +1,151 @@
+---
+layout: comments
+---
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>Bayes Filter</title></head>
+<body>
+<p>时隔很久重新拾起了自己的博客，倒也不是因为真的过于忙碌没时间记录一下自己的学习笔记，可能只是因为前段时间的疫情耽误了太多的事情导致很多事情停滞不前。在家里自学了Java，应该说是基本掌握了，不过还没有经过项目的历练。在家学会的不单单是代码方面的，包括自己学会了尤克里里，也买了一把属于自己的吉他，日语学习也更近了一步（N2没抢到QAQ）。回首今年对自己设的目标，大部分还是完成的不错的，望自己不忘初心，不负韶华！</p>
+<p>接下来，我会对Java和go语言中的OOP思想和代码部分作对比，方便大家更好的更快的理解Go语言中的类似OOP思想。</p>
+<h1>Java的OOP思想</h1>
+<p>之前上半年已经把Java系统地学了一遍，可以说Java是完全地贯彻了所谓的OOP（面向对象编程）的思想，所以说整个框架是十分的完善且成体系的。OOP中包括了三个部分，封装、继承和多态。</p>
+<p>封装，顾名思义，就是将一个类完成的封装起来，不让外面的人进来。如果你想进来，没问题，你得有权限，没有权限你就是没办法访问这个类。这就是public和private。里面的方法对象也可以直接private锁起来，不让外面的直接访问。当然，想用怎么办呢？用set和get方法，相当于一个桥梁，你不是不让我进去拿嘛，可以！我找一个人帮我拿，那个人就是set和get方法。集成环境一般都可直接生成。</p>
+<p>继承，也很简单，就是一个类可以完成的继承父类的所有的东西。在Java中是在class类名后加extends 父类。这很容易实现，并且大大的减少了代码量。</p>
+<p>多态，我认为，这才是整个OOP思想的核心。他讲封装和继承完全的包括在了里面。正因为有了多态，代码才有了灵活度、可扩展性等等优点。其中包括向上转型和向下转型，父类类型指向子类对象等等。比如：</p>
+<pre><code class='language-java' lang='java'>public class Test {
+    public static void main(String[] args) {
+      show(new Cat());  // 以 Cat 对象调用 show 方法
+      show(new Dog());  // 以 Dog 对象调用 show 方法
+                
+      Animal a = new Cat();  // 向上转型  
+      a.eat();               // 调用的是 Cat 的 eat
+      Cat c = (Cat)a;        // 向下转型  
+      c.work();        // 调用的是 Cat 的 work
+  }  
+            
+    public static void show(Animal a)  {
+      a.eat();  
+        // 类型判断
+        if (a instanceof Cat)  {  // 猫做的事情 
+            Cat c = (Cat)a;  
+            c.work();  
+        } else if (a instanceof Dog) { // 狗做的事情 
+            Dog c = (Dog)a;  
+            c.work();  
+        }  
+    }  
+}
+ 
+abstract class Animal {  
+    abstract void eat();  
+}  
+  
+class Cat extends Animal {  
+    public void eat() {  
+        System.out.println(&quot;吃鱼&quot;);  
+    }  
+    public void work() {  
+        System.out.println(&quot;抓老鼠&quot;);  
+    }  
+}  
+  
+class Dog extends Animal {  
+    public void eat() {  
+        System.out.println(&quot;吃骨头&quot;);  
+    }  
+    public void work() {  
+        System.out.println(&quot;看家&quot;);  
+    }  
+}
+
+</code></pre>
+<p>这里面体现了多态中的两个东西， 向上转型和向下转型。向上转型的时候，因为定义的是父类，所以这个实例化的对象只能用到父类的方法，不能调用子类独有的方法；但是向下转型就不一样了，他就可以调用子类独有的方法，这就是两者的区别。</p>
+<h1>Go语言中的多态</h1>
+<p>Go语言是一种比较反常的语言，他是将一切都建立在高并发的前提下的，所以他的代码从根本上将一切都并发华了，他用Goroutine，用类协程的方法来处理并发单元，却又在运行时层面做了更深度的优化处理。</p>
+<p>Go语言中的封装特别简单，直接讲首字母小写就可以了，很容易大伙儿理解。结构体名字小写=Java中的private；结构体名字大写=Java中的public。</p>
+<p>这里要说一下，go语言中是没有类的，那他通过什么实现这些呢？答案是结构体。结构体如下：</p>
+<pre><code class='language-go' lang='go'>type game struct{
+	Name	string
+    Age		int
+}
+</code></pre>
+<p>为什么要介绍结构体呢，首先封装的就是结构体，因为go语言没有类，是通过结构体和函数实现方法执行OOP思想的。之后的继承和多态还是会继续用到结构体，这是go语言的基础中的基础。</p>
+<p>Tips：go语言可以不用写分号（；），不过写了也没有关系，编译器懂的。</p>
+<p>接下来我们继续讨论继承，继承在go语言中的实现我觉得是比起Java更为的便捷的，直接结构体里面嵌套结构体就可以直接实现。这也是go语言的一个优势，在总结前人语言中的一些繁琐的东西的同时改进这些问题。这里注意，我说的继承是一种思想，go语言不存在所谓Java中的继承，类继承。继承方式如下：</p>
+<pre><code class='language-go' lang='go'>type Dog struct{
+    Name string 
+    Age  int
+}
+type hasky struct{
+    Intelligence	int
+    Dog
+}
+</code></pre>
+<p>go语言中的多态实现是比较有特点的，他是通过接口实现的。因为go语言是不支持类继承的，类都没有怎么继承呢？</p>
+<p>那我们就先把重点聚焦在接口上，在go语言中有一个特点，很简单，就是所谓的鸭子模型。我不管你长什么样子，只要你的行为跟鸭子一样，那你就是鸭子，你就实现了我的接口。例如：</p>
+<pre><code class='language-go' lang='go'>package main
+
+import (
+	&quot;errors&quot;
+	&quot;fmt&quot;
+)
+
+//type InterfaceName interface {
+//	Method()
+//}
+type IDatabaser interface {
+	Connect() error
+	Disconnect() error
+}
+type Mysql struct {
+	DBName string
+	isConnect bool
+}
+func (mysql *Mysql)Connect()  error {
+	fmt.Println(&quot;Mysql connect DB=&gt;&quot;+ mysql.DBName)
+	//do Connect
+	if mysql.isConnect {
+		fmt.Println(&quot;Mysql Connect Success!&quot;)
+		return nil
+	}else {
+		return errors.New(&quot;Connect failure!&quot;)
+	}
+}
+func (mysql *Mysql)Disconnect() error {
+	fmt.Println(&quot;Mysql Disconnect Success!&quot;)
+	return nil
+}
+type Redis struct {
+	DBName string
+	//isConnect bool
+}
+func (redis *Redis)Connect()  error {
+	fmt.Println(&quot;Redis connect DB=&gt;&quot;+ redis.DBName)
+	//do Connect
+		fmt.Println(&quot;Redis Connect Success!&quot;)
+		return nil
+}
+func (redis *Redis)Disconnect() error {
+	fmt.Println(&quot;Redis Disconnect Success!&quot;)
+	return nil
+}
+//go的多态体现
+func HandleDB(db IDatabaser)  {
+	fmt.Println(&quot;开始连接&quot;)
+	db.Connect()
+	fmt.Println(&quot;断开连接&quot;)
+	db.Disconnect()
+}
+func main() {
+	var mysql = Mysql{DBName:&quot;student&quot;}
+	HandleDB(&amp;mysql)
+	var redis  = Redis{DBName:&quot;teacher&quot;}
+	HandleDB(&amp;redis)
+}
+
+</code></pre>
+<p>IDatabaser是一个接口，如果你想要实现这个接口，怎么办呢，那你就去实现它拥有的所有方法吧！下面mysql和redis两个结构体，通过函数声明了自己实现IDatabaser下的两个方法，那不管别的，他们就是实现了这个接口，go语言的多态就是这样的简单。不存在什么向上转型向下转型这种新手容易搞混的东西。</p>
+</body>
+</html>
