@@ -39,15 +39,19 @@ Temporary none。
 
 - **Git**, Familiar
 
-- **Java**     ，Learning
+- **Java** Familiar
 
-- **JavaScript**，Learning
+- **JavaScript**,Learning
 
 - **Verilog**,Familiar 
 
 - **English**,Familiar
 
 - **Japanese**,Familiar&Learning(preparing for N2)
+
+- **Go** ，Familiar&Learning
+
+- **HTML**，Familiar
 
   
 
@@ -59,5 +63,5 @@ Temporary none。
   - [粒子滤波](posts/Particle-Filter)
   - [多目标贝叶斯滤波](posts/Multi-Bayes-Filter)
   - [吉布斯采样](posts/Gibbs-Sampling)
-  - Java（暂时没学呢TnT）
+  - Java
 
