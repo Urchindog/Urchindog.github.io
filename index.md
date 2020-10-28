@@ -15,7 +15,7 @@ title: 今日は、お元気ですね。
 
 ## Education
 
- Shanghai University Of Engineering Science , Shanghai 2019 - Jul. 2021(expected)
+ Shanghai University Of Engineering Science , Shanghai 2019 - Apr. 2021(expected)
 
 - Bachelor of Control Engineering（Now，majoring in Target location and tracking based on wireless sensor）
 
