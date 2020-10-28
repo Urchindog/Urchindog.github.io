@@ -57,12 +57,21 @@ Temporary none。
 
 ## Essay
 
-  - 生活
+  - [进程与线程的区别](posts/Thread)
+
   - [贝叶斯滤波](posts/Bayes-filter)
+
   - [高斯混合](posts/Gaussian-Mixture)
+
   - [粒子滤波](posts/Particle-Filter)
+
   - [多目标贝叶斯滤波](posts/Multi-Bayes-Filter)
+
   - [吉布斯采样](posts/Gibbs-Sampling)
+
   - Java
+
   - [Go语言](posts/Go)
+
+    
 
