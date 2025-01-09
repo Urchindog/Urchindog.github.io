@@ -45,6 +45,10 @@ and &amp; or   </p>        </p> SELECT DISTINCT xxx  FROM  table where A   and�
 </p>2.nginx做转发，让请求从同一台机器（做代理）转发，保持请求在一台机器上从而保证跨域问题</p>
 </p>3.前端script标签处理，JSONP技术。但是这种只能处理get请求</p>
 </p>4.浏览器插件，让浏览器在无安全模式的状态下运行</p>
+<p>#charles-mock
+</p>charles中如何mock呢？</p>
+</p>只要先将已有的请求返回save response，保存到本地，然后修改本地文件到自己需要的内容，然后map到本地修改后的文件。</p>
+<p><img src="/public/image/charles-mock.jpg" referrerpolicy="no-referrer" alt="tran"></p>
 <p>#liunx</p>
 </p>truncate -s 0 xxx.log      删除文件</p>
 </p>dockerd             查询日志</p>
