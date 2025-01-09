@@ -88,5 +88,7 @@ Temporary none。
 
   - [Go语言](posts/Go)
 
+  - [测试技巧](posts/Test)
+
     
 
