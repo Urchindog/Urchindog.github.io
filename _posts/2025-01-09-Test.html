@@ -12,61 +12,62 @@ layout: comments
 <li>跨域</li>
 <li>mysql</li>
 <li>redis</li>
+<li>linux</li>
+<li>docker</li>
 </ul>
 <hr>
 <p>#redis
 起redis服务
 redis-server</p>
-<p>查看redis进程是否起来
-ps aux | grep redis</p>
-<p>#mysql
-UPDATE table_name  SET column1 = value1, column2 = value2,....WHERE condition;
-INSERT INTO table_name (column1,column2,...)VALUES (value1,value2,...);</p>
-<p>distinct               SELECT DISTINCT xxx  FROM  table
-and &amp; or            SELECT DISTINCT xxx  FROM  table where A   and（or） B
-SELECT TOP(返回最上面的几行)column1, column2, ...FROM table_name ORDER BY column1, column2, ... ASC|DESC;  （order by是排序）
-BETWEEN Value1 AND Value2。（之间）
-in （Value1 ， Value2）（这几个值）
-WHERE  column_name  LIKE &#39;%xxx&#39;。（通配符）
-GROUP BY column_name   (必须配合聚合函数，where也不能和聚合函数一起，新增HAVING codition)
-INSERT INTO table2 （SELECT * FROM table1）;（复制表）
-DELETE FROM table_name
-WHERE condition;（有条件的删除数据）
-TRUNCATE TABLE TABLE_NAME；（删除所有数据，保留表的结构）
-DROP TABLE [IF EXISTS] （如果有，就删除，可选）TABLE_NAME;（删除数据库/表，表的结构也会啥都没有）
-CHECK （colunm &gt;0）. 创建表的时候限制字段内容
-DEFAULT。 City varchar（255） DEFAULT ‘xxx’ 创建默认值
-ALTER TABLE table_name ADD（DROP、MODIFY） column_name datetype
-ALTER TABLE 语句用于在已有的表中添加、删除或修改列</p>
+<p>查看redis进程是否起来</p>
+</p>ps aux | grep redis</p>
+<p>#mysql</p>
+</p>UPDATE table_name  SET column1 = value1, column2 = value2,....WHERE condition;</p>
+</p>INSERT INTO table_name (column1,column2,...)VALUES (value1,value2,...);</p>
+<p>distinct</p>               </p>SELECT DISTINCT xxx  FROM  table
+and &amp; or   </p>        </p> SELECT DISTINCT xxx  FROM  table where A   and（or） B</p>
+</p>SELECT TOP(返回最上面的几行)column1, column2, ...FROM table_name ORDER BY column1, column2, ... ASC|DESC;  （order by是排序）</p>
+</p>BETWEEN Value1 AND Value2。（之间）</p>
+</p>in （Value1 ， Value2）（这几个值）</p>
+</p>WHERE  column_name  LIKE &#39;%xxx&#39;。（通配符）</p>
+</p>GROUP BY column_name   (必须配合聚合函数，where也不能和聚合函数一起，新增HAVING codition)</p>
+</p>INSERT INTO table2 （SELECT * FROM table1）;（复制表）</p>
+</p>DELETE FROM table_name</p>
+</p>WHERE condition;（有条件的删除数据）</p>
+</p>TRUNCATE TABLE TABLE_NAME；（删除所有数据，保留表的结构）</p>
+</p>DROP TABLE [IF EXISTS] （如果有，就删除，可选）TABLE_NAME;（删除数据库/表，表的结构也会啥都没有）</p>
+</p>CHECK （colunm &gt;0）. 创建表的时候限制字段内容</p>
+</p>DEFAULT。 City varchar（255） DEFAULT ‘xxx’ 创建默认值</p>
+</p>ALTER TABLE table_name ADD（DROP、MODIFY） column_name datetype</p>
+</p>ALTER TABLE 语句用于在已有的表中添加、删除或修改列</p>
 <p>#跨域
-1.响应头 Access-Control-Allow-Origin 加全部
-2.nginx做转发，让请求从同一台机器（做代理）转发，保持请求在一台机器上从而保证跨域问题
-3.前端script标签处理，JSONP技术。但是这种只能处理get请求
-4.浏览器插件，让浏览器在无安全模式的状态下运行</p>
-<p>command + O。视频
-![[Pasted image 20250107152529.png]]
-#liunx
-truncate -s 0 xxx.log      删除文件
-dockerd             查询日志
-docker ps           查询容器状态
-systemctl docker start（restart） </p>
+</p>1.响应头 Access-Control-Allow-Origin 加全部</p>
+</p>2.nginx做转发，让请求从同一台机器（做代理）转发，保持请求在一台机器上从而保证跨域问题</p>
+</p>3.前端script标签处理，JSONP技术。但是这种只能处理get请求</p>
+</p>4.浏览器插件，让浏览器在无安全模式的状态下运行</p>
+<p>#liunx</p>
+</p>truncate -s 0 xxx.log      删除文件</p>
+</p>dockerd             查询日志</p>
+</p>docker ps           查询容器状态</p>
+</p>systemctl docker start（restart） </p>
 <p>xmind2testcase webtool 8000</p>
-<p>#docker
-docker ps -a     查看docker的container，-a代表了获取所有状态的container
-docker images    查看docker的image
-systemctl daemon-reload    重新读取配置文件
-systemctl restart     docker重启
-docker exec containerID env     查看容器的环境变量</p>
-<p>docker stop container：1    暂停container，1后面的是tag
-docker rm  container：1     删除container
-docker rmi image：1      删除image
-docker image prune -a     删除没有被用到的image
-docker run -d -p 5000:5000
-  <strong>-P：<strong>是容器内部端口</strong>随机</strong>映射到主机的端口。
-  -p：<strong>是容器内部端口绑定到</strong>指定**的主机端口。
-通过访问主机的1002端口，访问到容器的3000端口
-docker run -d -p 1002:3000 <br>   -e OPENAI_API_KEY=sk-gANNPixwvcqnVv3B232cCeFe71584935A019FbB2Bd07D44b<br>   -e BASE_URL=<a href="https://api.xty.app%5C">https://api.xty.app\</a>
+<p>#docker</p>
+</p>docker ps -a     查看docker的container，-a代表了获取所有状态的container</p>
+</p>docker images    查看docker的image</p>
+</p>systemctl daemon-reload    重新读取配置文件</p>
+</p>systemctl restart     docker重启</p>
+</p>docker exec containerID env     查看容器的环境变量</p>
+<p>docker stop container：1    暂停container，1后面的是tag</p>
+</p>docker rm  container：1     删除container</p>
+</p>docker rmi image：1      删除image</p>
+</p>docker image prune -a     删除没有被用到的image</p>
+</p>docker run -d -p 5000:5000</p>
+</p><strong>-P：<strong>是容器内部端口</strong>随机</strong>映射到主机的端口。</p>
+</p><strong>-P：<strong>是容器内部端口</strong>随机</strong>映射到主机的端口。</p>
+</p>-p：<strong>是容器内部端口绑定到</strong>指定**的主机端口。</p>
+</p>通过访问主机的1002端口，访问到容器的3000端口</p>
+</p>docker run -d -p 1002:3000 <br>   -e OPENAI_API_KEY=sk-gANNPixwvcqnVv3B232cCeFe71584935A019FbB2Bd07D44b<br>   -e BASE_URL=<a href="https://api.xty.app%5C">https://api.xty.app\</a>
    -e HIDE_USER_API_KEY=1<br>   -e STABILITY_API_KEY=ZpUHUg4pAHDkbTmBOGRlXqRxGNGKERtZn1rrGdkwcqt3a2e339ImtT5zUOpA<br>   -e STABILITY_URL=<a href="https://stablediffusionapi.com/api/v3/text2img%5C">https://stablediffusionapi.com/api/v3/text2img\</a>
-   yidadaa/chatgpt-next-web</p>
+   yidadaa/chatgpt-next-web</p></p>
 
 </html>
