@@ -12,13 +12,17 @@ title: 今日は、お元気ですね。
 - WeChat: Urchindog
 - QQ: 302918947
 - Blog: **<https://Urchindog.github.io>**
-- chatGPT:http://1.94.127.139:1002/#/chat
+- chatGPT: **<https://http://1.94.127.139:1002/#/chat>**
 
 ## Education
 
- Shanghai University Of Engineering Science , Shanghai 2019 - Apr. 2022(expected)
+- Shanghai University Of Engineering Science , Shanghai 2019 - Apr. 2022
 
-- Bachelor of Control Engineering（Now，majoring in Target location and tracking based on wireless sensor）
+  Bachelor of Control Engineering（Now，majoring in Target location and tracking based on wireless sensor）
+
+- Shandong University of Science and Technology，TsingTao China (August. 2015——July.2019)
+
+  Electronic Information Science and Technology - Embedded Systems Direction
 
 ## Award
 
@@ -36,7 +40,7 @@ Temporary none。
 
 - **LaTex**, Familiar
 
-- **Linux**, Familiar&Learning
+- **Linux**, Familiar
 
 - **Git**, Familiar
 
@@ -48,11 +52,19 @@ Temporary none。
 
 - **English**,Familiar
 
-- **Japanese**,Familiar&Learning(preparing for N2)
+- **Japanese**,Familiar&Learning(N2)
 
 - **Go** ，Familiar&Learning
 
 - **HTML**，Familiar
+
+- **Jmeter**,Familiar
+
+- **Postman**, Familiar
+
+- **Docker**,Familiar
+
+- **Kafka、Mysql、redis、RabbitMQ**, Familiar
 
   
 
