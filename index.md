@@ -12,6 +12,7 @@ title: 今日は、お元気ですね。
 - WeChat: Urchindog
 - QQ: 302918947
 - Blog: **<https://Urchindog.github.io>**
+- chatGPT:http://1.94.127.139:1002/#/chat
 
 ## Education
 
