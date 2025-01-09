@@ -5,10 +5,12 @@ title: 今日は、お元気ですね。
 ## Contact
 
 - Name:Jiafeng,Yang
-- Address:  Shanghai University Of Engineering Science  - 333 Longteng  Rd. - Shanghai, China**
+- English name:Urchin
+- Address:  Minhang District, Shanghai**
 - Phone: **+86 18019709049
 - E-mail:
   - 302918947@qq.com
+  - yjf302918947@Gmail.com
 - WeChat: Urchindog
 - QQ: 302918947
 - Blog: **<https://Urchindog.github.io>**
@@ -52,7 +54,7 @@ Temporary none。
 
 - **English**,Familiar
 
-- **Japanese**,Familiar&Learning(N2)
+- **Japanese**,Familiar&Learning(N2 done)
 
 - **Go** ，Familiar&Learning
 
