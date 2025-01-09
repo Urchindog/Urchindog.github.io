@@ -68,6 +68,10 @@ Temporary none。
 
 - **Kafka、Mysql、redis、RabbitMQ**, Familiar
 
+- **Apifox**,Familiar&Learning(N2 done)
+
+- **adb、robotframework、cypress、airtest**,Familiar
+
   
 
 ## Essay
