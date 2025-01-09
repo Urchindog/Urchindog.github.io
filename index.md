@@ -4,8 +4,7 @@ title: 今日は、お元気ですね。
 ---
 ## Contact
 
-- Name:Jiafeng,Yang
-- English name:Urchin
+- Name:Jiafeng,Urchin
 - Address:  Minhang District, Shanghai
 - Phone: +86 18019709049
 - E-mail:
