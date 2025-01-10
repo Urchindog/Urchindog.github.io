@@ -19,7 +19,7 @@ title: 今日は、お元気ですね。
 
 - Shanghai University Of Engineering Science , Shanghai 2019 - Apr. 2022
 
-  Bachelor of Control Engineering（Now，majoring in Target location and tracking based on wireless sensor）
+  Bachelor of Control Engineering（majoring in Target location and tracking based on wireless sensor and something around AI skills）
 
 - Shandong University of Science and Technology，TsingTao China (August. 2015——July.2019)
 
