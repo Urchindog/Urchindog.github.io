@@ -28,34 +28,34 @@ Temporary none。
 
 ## Skill
 
-- **Matlab:** 熟悉
-- **Pr:** 熟悉
-- **Python:** 熟悉
-- **Markdown:** 熟悉
-- **LaTex:** 熟悉
-- **Linux:** 熟悉
-- **Git:** 熟悉
-- **Java:** 熟悉
-- **JavaScript:** 学习中
-- **Verilog:** 熟悉
-- **English:** 熟悉
-- **Japanese:** 熟悉 & 学习中（N2 完成）
-- **Go:** 熟悉 & 学习中
-- **HTML:** 熟悉
-- **Jmeter:** 熟悉
-- **Postman:** 熟悉
-- **Docker:** 熟悉
-- **Kafka、Mysql、redis、RabbitMQ:** 熟悉
-- **Apifox:** 熟悉 & 学习中（N2 完成）
-- **adb、robotframework、cypress、airtest:** 熟悉
+- **Matlab:** familiar
+- **Pr:** familiar
+- **Python:** familiar
+- **Markdown:** familiar
+- **LaTex:** familiar
+- **Linux:** familiar
+- **Git:** familiar
+- **Java:** familiar
+- **JavaScript:** learning
+- **Verilog:** familiar
+- **English:** familiar
+- **Japanese:** familiar & learning（N2 done）
+- **Go:** familiar
+- **HTML:** familiar
+- **Jmeter:** familiar
+- **Postman:** familiar
+- **Docker:** familiar
+- **Kafka、Mysql、redis、RabbitMQ:** familiar
+- **Apifox:** familiar 
+- **adb、robotframework、cypress、airtest:** familiar
 
 ## Essay
 
 - [进程与線程的区别](posts/Thread)
-- [贝叶ス滤波](posts/Bayes-filter)
+- [贝叶斯滤波](posts/Bayes-filter)
 - [高斯混合](posts/Gaussian-Mixture)
 - [粒子滤波](posts/Particle-Filter)
-- [多目标贝叶ス滤波](posts/Multi-Bayes-Filter)
+- [多目标贝叶斯滤波](posts/Multi-Bayes-Filter)
 - [吉布斯采样](posts/Gibbs-Sampling)
 - [Java](posts/Java)
 - [Go语言](posts/Go)
