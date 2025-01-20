@@ -26,28 +26,7 @@ title: 今日は、お元気ですね。
 
 Temporary none。
 
-## Skill
 
-- **Matlab:** familiar
-- **Pr:** familiar
-- **Python:** familiar
-- **Markdown:** familiar
-- **LaTex:** familiar
-- **Linux:** familiar
-- **Git:** familiar
-- **Java:** familiar
-- **JavaScript:** learning
-- **Verilog:** familiar
-- **English:** familiar
-- **Japanese:** familiar & learning（N2 done）
-- **Go:** familiar
-- **HTML:** familiar
-- **Jmeter:** familiar
-- **Postman:** familiar
-- **Docker:** familiar
-- **Kafka、Mysql、redis、RabbitMQ:** familiar
-- **Apifox:** familiar 
-- **adb、robotframework、cypress、airtest:** familiar
 
 ## Essay
 - [进程与線程的区别](posts/Thread)
