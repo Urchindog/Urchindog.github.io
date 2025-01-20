@@ -50,11 +50,10 @@ Temporary none。
 - **adb、robotframework、cypress、airtest:** familiar
 
 ## Essay
-
-- [进程与線程的区别](posts/Thread)
+<!-- - [进程与線程的区别](posts/Thread)
 - [贝叶斯滤波](posts/Bayes-filter)
 - [高斯混合](posts/Gaussian-Mixture)
-- [粒子滤波](posts/Particle-Filter)
+- [粒子滤波](posts/Particle-Filter) -->
 - [多目标贝叶斯滤波](posts/Multi-Bayes-Filter)
 - [吉布斯采样](posts/Gibbs-Sampling)
 - [Java](posts/Java)
