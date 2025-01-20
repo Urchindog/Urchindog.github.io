@@ -59,5 +59,5 @@ Temporary none。
 - [吉布斯采样](posts/Gibbs-Sampling)
 - [Java](posts/Java)
 - [Go语言](posts/Go)
-- [Python](posts/Python)
+- [Python](posts/Py)
 - [测试技巧](posts/Test)
