@@ -50,6 +50,9 @@ Temporary none。
 - **adb、robotframework、cypress、airtest:** familiar
 
 ## Essay
+- [Go语言](posts/Go)
+- [Python](posts/Py)
+- [测试技巧](posts/Test)
 - [进程与線程的区别](posts/Thread)
 - [贝叶斯滤波](posts/Bayes-filter)
 - [高斯混合](posts/Gaussian-Mixture)
@@ -57,6 +60,3 @@ Temporary none。
 - [多目标贝叶斯滤波](posts/Multi-Bayes-Filter)
 - [吉布斯采样](posts/Gibbs-Sampling)
 - [Java](posts/Java)
-- [Go语言](posts/Go)
-- [Python](posts/Py)
-- [测试技巧](posts/Test)
